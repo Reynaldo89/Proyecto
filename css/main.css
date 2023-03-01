@@ -1,0 +1,57 @@
+:root{
+    --theme-color: rgba(61, 88, 90, 0.692);
+    --primary-color: #ccc4c3;
+    --secundary-color: #F7C331;
+    --text-color-inverse: white;
+    --text-color: #dad4d3;
+    --navbar-shallow-color:#e5e5e5;
+    --menu-movil-background-color: #3A4460;
+
+}
+body{
+    font-family: 'Montserrat' , sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+header button{
+    font-family: 'Montserrat' , sans-serif;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 14px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+body.darkmode{
+    background-color: black;
+    color: white;
+}
+.dark1:hover{
+    background-color: black;
+    color: white;
+}
+.perfil{
+    font-size: 1.1em;
+    
+}
+.redireccionar{
+    font-family: 'Montserrat' , sans-serif;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 14px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+.redireccionar:hover{
+    background-color: black;
+    color: white;
+}
