@@ -128,28 +128,29 @@
     <div class="center">
         <h1>Registrar</h1>
         <img src="account_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="user-login">
-        <form method="post">
+        <form method="post" id="formulario">
             <div class="txt_field">
-                <input type="text" required>
+                <input type="text" >
                 <label>Nombre</label>
             </div>
             <div class="txt_field">
-                <input type="text" required>
+                <input type="text" name="usuario" id="usuario">
                 <label>Usuario</label>
             </div>
             <div class="txt_field">
-                <input type="text" required>
+                <input type="text" name="email" id="email">
                 <label>Correo Electronico</label>
             </div>
             <div class="txt_field">
-                <input type="password" required>
+                <input type="password" name="clave" id="clave">
                 <label>Contraseña</label>
             </div>
             <div class="txt_field">
-                <input type="password" required>
+                <input type="password" name="clave" id="clave">
                 <label>Confirmar Contraseña</label>
             </div>
             <input type="submit" value="Login">
+            <script src="main.js"></script>
             
 </body>
 </html>

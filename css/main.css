@@ -6,6 +6,7 @@
     --text-color: #dad4d3;
     --navbar-shallow-color:#e5e5e5;
     --menu-movil-background-color: #3A4460;
+    
 
 }
 body{
@@ -53,5 +54,75 @@ body.darkmode{
 }
 .redireccionar:hover{
     background-color: black;
+    color: white;
+}
+.redirecciona{
+    font-family: 'Montserrat' , sans-serif;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 14px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+.redirecciona:hover{
+    background-color: blue;
+    color: white;
+}
+.redirecciona2{
+    font-family: 'Montserrat' , sans-serif;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 14px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+.redirecciona2:hover{
+    background-color: green;
+    color: white;
+}
+.redirecciona3{
+    font-family: 'Montserrat' , sans-serif;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 14px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+.redirecciona3:hover{
+    background-color: red;
+    color: white;
+}
+.redirecciona4{
+    font-family: 'Montserrat' , sans-serif;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 14px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+.redirecciona4:hover{
+    background-color: rgb(99, 69, 15);
+    color: white;
+}
+.redirecciona5{
+    font-family: 'Montserrat' , sans-serif;;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 14px;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+.redirecciona5:hover{
+    background-color: purple;
     color: white;
 }
